@@ -13,14 +13,14 @@ Ground to aerial matching is a crucial and challenging task in outdoor robotics,
 ## Navigation Visualization
 
 ### Figure 8 Turnpike
-![](https://drive.google.com/uc?id=1JyENyMyY2wgqGUpTXiCP_K_jFwTJrRjb)
+[Figure 8 Turnpike Matching Visualization](https://drive.google.com/uc?id=1JyENyMyY2wgqGUpTXiCP_K_jFwTJrRjb)
 
 ![](plots/TrajPlot.png)
 ![](plots/APEPlot.png)
 ![](plots/RPEPlot.png)
 
 ### Turnpike Flat
-![](https://drive.google.com/uc?id=16Jj_pC3FwbueK5N4pqSPA5vaeLIceVEQ)
+[Turnpike Flat Matching Visualization](https://drive.google.com/uc?id=16Jj_pC3FwbueK5N4pqSPA5vaeLIceVEQ)
 
 
 ## Models:
