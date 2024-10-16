@@ -1,0 +1,9 @@
+{
+    "train_pct": 0.85,
+    "val_pct": 0.05,
+    "test_pct": 0.10,
+    "train": [],
+    "val": ["20220531_highvel_0", "20220628_aggresive_4", "20220630_3", "20220630_5"],
+    "test": ["20221109_aggressive_wenshan", "20221109_aggressive_sam5", "20221109_aggressive_sam6"],
+    "exclude": ["20220628_aggresive_1", "20220628_aggresive_6", "20220628_aggresive_7", "20220628_aggresive_8", "20220628_aggresive_9", "20220628_aggresive_10", "20220628_aggresive_11", "20220722_vegetation_2", "/media/cklammer/starscream_data1/tartandrive/2022_split/no_gps/20220722_vegetation_3", "20220722_vegetation_4", "20221109_aggressive_sam3"]
+}

@@ -1,0 +1,9 @@
+{
+    "train_pct": 0.90,
+    "val_pct": 0.02,
+    "test_pct": 0.08,
+    "train": [],
+    "val": [],
+    "test": [],
+    "exclude": []
+}

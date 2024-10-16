@@ -1,0 +1,45 @@
+{
+    "experiment": "overtrain_traj0",
+    "map_file": "maps/EPSG3857_Date20200814_Lat40.458735_Lon-79.788133_Mpp0.299.jpg",
+    "vrt_file": "maps/web_mercator_gascola_august_2020.vrt",
+    "out_path": "/home/chris/dev/tartan-aeromatch/output",
+    "checkpoint_out_path": "/home/chris/dev/tartan-aeromatch/",
+    "model_ckpt_path": "models/DINOL",
+    "sensor": {
+        "K": [
+            [477.6049499511719, 0, 499.5],
+            [0, 477.6049499511719, 252.0],
+            [0, 0, 1]],
+        "bl_m": 0.20970,
+        "min_depth": 2.5,
+        "max_depth": 40
+    },
+    "training": {
+        "train_split": "/home/chris/data/tartandrive_v2/train",
+        "val_split": "/home/chris/data/tartandrive_v2/test",
+        "test_split": "/home/chris/data/tartandrive_v2/test",
+        "device": "cuda",
+        "batch_size": 8,
+        "ground_backbone": "resnet101",
+        "aerial_backbone": "dino-l",
+        "img_feature_size" : 64,
+        "bev_feature_size": 8,
+        "embedding_size" : 256,
+        "map_padding": 16,
+        "strategy": "push",
+        "marginalize_height": "None",
+        "temporal_strategy": "multi",
+        "coarse_loss": "CosineGaussian",
+        "fine_loss_dist": "CosineGaussian",
+        "fine_loss_rot": "Cosine",
+        "mine_distance": true,
+        "mine_rotations": true,
+        "num_rots_fine": 1,
+        "pos_dist_chips": 8,
+        "neg_dist_chips": 32
+    },
+    "far_thresh_m": 3,
+    "coarse_crop_size": [384, 384],
+    "grid_size": [32, 32, 16],
+    "voxel_size": [0.3, 0.3, 3.0]
+}
